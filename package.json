@@ -1,9 +1,9 @@
 {
-    "name": "staruml.swift",
-    "title": "Swift",
-    "description": "Swift code generation engineering.",
-    "homepage": "https://github.com/tomlee130/staruml-starumlSwift",
-    "issues": "https://github.com/tomlee130/staruml-starumlSwift/issues",
+    "name": "staruml-swift3",
+    "title": "Swift3",
+    "description": "Swift code generatior.",
+    "homepage": "https://github.com/asharijuang/staruml-Swift3",
+    "issues": "https://github.com/asharijuang/staruml-Swift3/issues",
     "keywords": ["Swift","staruml","staruml extention"],
     "version": "0.1.1",
     "author": {
