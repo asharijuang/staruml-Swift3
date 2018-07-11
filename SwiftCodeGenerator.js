@@ -236,11 +236,11 @@ define(function (require, exports, module) {
 //            if (templatePart.length > 0) {
 //                codeWriter.writeLine(templatePart);
 //            }
-            var brief = elem.name + ' class';
+            var brief = elem.name + '.swift';
             if (elem.documentation.length > 0) {
                 brief = elem.documentation;
             }
-            var docs = '@brief  ' + brief + '\n\n@author: uml \n\n@version: ' + year + '年' + month + '月' + day + '日 ' + hour + ':' + minute + ':' + second + '\n';
+            var docs =  brief + '\nCreated by '+ '\nCopyright © ' + year + '. All rights reserved.' + '\n';
             //if (!isPrivate) {
             codeWriter.writeLine(cppCodeGen.getDocuments(docs));
             //}
